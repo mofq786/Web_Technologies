@@ -1,0 +1,34 @@
+/* *{
+    color: red;
+} */
+
+/* body{
+    color: red;
+} */
+
+/* h1{
+    color: darkblue;
+    background-color: lightblue;
+    width: fit-content;
+}
+p{
+    color: pink;
+    background-color: black;
+} */
+
+#core_java{
+    color: red;
+}
+#web_technology{
+    color: blueviolet;
+}
+#click_button{
+    color: white;
+    background-color:#0b57d0;
+    border: none;
+}
+#click_here{
+    color: white;
+    background-color: blue;
+    border: none;
+}

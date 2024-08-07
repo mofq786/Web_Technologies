@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body style="display: flex; justify-content: center;">
+    
+    <form action="https://www.linkedin.com" style="width: 30%;" method="post">
+        <fieldset style="background-color: #faff95;">
+            <legend style="font-size: 30px;">Form</legend>
+            <div style="height: 40px;"></div>
+            <div style="overflow-x: auto;background-color:rgb(255, 200, 140); border-radius: 5px;">
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" placeholder="Enter Username" name="Username" required minlength="3"><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td>
+                            <input type="password" placeholder="Enter Password" name="Password" required minlength="8"><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email_Id</td>
+                        <td>:</td>
+                        <td>
+                            <input type="email" placeholder="Enter Email" name="Email_Id" required><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td>:</td>
+                        <td>
+                            <input type="number" placeholder="Enter Mobile No." name="MobileNumber" required><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>:</td>
+                        <td>
+                            <input type="date" name="DateOfBirth"><b style="color: red;" required>*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td>:</td>
+                        <td>
+                            <input type="number" placeholder="Enter Age" name="Age" required><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" name="Gender">Male
+                            <input type="radio" name="Gender">Female
+                            <input type="radio" name="Gender">Others
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Skills</td>
+                        <td>:</td>
+                        <td>
+                            <input type="checkbox" name="Skills">WEB
+                            <input type="checkbox" name="Skills">SQL
+                            <input type="checkbox" name="Skills">JAVA
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>State</td>
+                        <td>:</td>
+                        <td>
+                            <select name="State" id="State" required>
+                                <option value="Selected" 
+                                selected>Select Your State</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            </select> <b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Districts</td>
+                        <td>:</td>
+                        <td>
+                            <select name="Districts" id="Districts">
+                                <option value="Selected" 
+                                selected required>Select Your District</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Rangareddy">Rangareddy</option>
+                            </select> <b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Image</td>
+                        <td>:</td>
+                        <td>
+                            <img src="../../assets/images/SelfPhoto.jpg" alt="Picture" style="width: 50px;"><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Image</td>
+                        <td>:</td>
+                        <td>
+                            <input type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="Address" id="Address"></textarea required><b style="color: red;">*</b>
+                        </td>
+                    </tr>
+                    <div>
+
+                    </div>
+                    <tr>
+                        <td>
+                            Image
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="reset" value="Clear">
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
