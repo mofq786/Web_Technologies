@@ -16,7 +16,7 @@ p{
     background-color: black;
 } */
 
-#core_java{
+/* #core_java{
     color: red;
 }
 #web_technology{
@@ -31,4 +31,23 @@ p{
     color: white;
     background-color: blue;
     border: none;
+} */
+
+.text_red{
+    color: red;
+}
+.text_blue{
+    color: blue;
+}
+
+.table_border{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid blue;
+}
+div{
+    height: 50px;
 }
