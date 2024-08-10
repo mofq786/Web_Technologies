@@ -1,0 +1,27 @@
+div{
+    width: 250px;
+    height: 250px;
+    /* Color */
+
+    background-color: red;
+
+    /* RGB */
+
+    background-color: rgb(128, 59, 243);
+
+    /* RGBA */
+
+    background-color: rgba(199, 255, 98, 0.5);
+
+    /* HEX */
+
+    background-color: #0001ff;
+
+    /* HEXA */
+
+    background-color: #0054008f;
+
+    /* HSL */
+
+    background-color: hsl(green, 20%, 50%);
+}
