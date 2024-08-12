@@ -1,0 +1,28 @@
+div{
+    width: 500px;
+    height: 500px;
+
+}
+
+#linear{
+    background-image: linear-gradient(135deg,orange,white,green);
+}
+
+#radial{
+    background-image: radial-gradient(orange,white,green);
+}
+
+#conic{
+    background-image: conic-gradient(orange,white,green,red,yellow,pink,hotpink,blue,royalblue);
+}
+
+#image{
+
+    background-image: linear-gradient(135deg,red,transparent,transparent,transparent,transparent,red), radial-gradient(transparent,transparent,transparent, transparent,orange),url(../../assets/images/Landscape.jpg);
+
+    /* background-image: url(../../assets/images/Landscape.jpg); */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    
+    
+}
