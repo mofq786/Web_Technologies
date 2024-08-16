@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 100px;
+}
+#left_leaf,#right_leaf{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#left_leaf{
+    border-radius: 100% 0%;
+    background-image: linear-gradient(rgb(255, 0, 212),rgb(184, 84, 100),rgb(231, 46, 46));
+}
+
+#right_leaf{
+    border-radius: 0% 100%;
+    background-image: linear-gradient(rgb(255, 0, 212),rgb(184, 84, 100),rgb(231, 46, 46));
+}

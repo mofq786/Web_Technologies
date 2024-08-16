@@ -1,0 +1,25 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(rgb(203, 58, 0),rgba(189, 189, 41, 0.6),rgb(0, 84, 0));
+}
+
+#one_value{
+    border-radius: 5px;
+}
+
+#two_value{
+    border-radius: 5px 10px;
+}
+
+#three_value{
+    border-radius: 5px 10px 15px;
+}
+
+#four_value{
+    border-radius: 5px 10px 15px 20px;
+}
+
+#circular{
+    border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+div{
+    width: 100%;
+    float: left;
+}
+h1{
+    float: left;
+}
+#india,#china,#us{
+    width: 14%;
+}
+
+#india{
+    border-right: 400px solid red;
+}
+
+#china{
+    border-right: 350px solid orange;
+}
+
+#us{
+    border-right: 200px solid green;
+}
+
+.count{
+    width: 30%;
+    float: right;
+}

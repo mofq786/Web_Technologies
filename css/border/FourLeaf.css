@@ -1,0 +1,26 @@
+div{
+    width: 100px;
+    height:100px;
+    float: left;
+}
+#parent{
+    width: 200px;
+    height: 200px;
+}
+#leaf_tl,#leaf_bl{
+    background-color: rgb(226, 43, 107);
+    border-radius: 0% 100%;
+}
+
+#leaf_tr,#leaf_br{
+    background-color: rgb(36, 128, 50);
+    border-radius: 100% 0%;
+}
+
+#leaf_br{
+    background-color: rgb(13, 48, 130);
+}
+
+#leaf_bl{
+    background-color: rgb(229, 136, 15);
+}

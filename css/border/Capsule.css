@@ -1,0 +1,44 @@
+/* 
+
+Method - 1
+
+div{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#parent{
+    width: 200px;
+}
+
+#first{
+    background-color: blue;
+    border-radius: 50% 0% 0% 50%;
+}
+#second{
+    background-color: red;
+    border-radius: 0% 50% 50% 0%;
+} */
+
+/* Method - 2 */
+/* 
+#linear{
+    width: 300px;
+    height: 100px;
+    background-image: linear-gradient(to right, blue 50%,red 50%);
+    border-radius: 50%;
+} */
+
+/* Method - 3 */
+
+div{
+    width: 200px;
+    height: 100px;
+}
+#parent{
+    background-color: blue;
+    border-radius: 50%;
+}
+#child{
+    border-radius: 50%;
+}
