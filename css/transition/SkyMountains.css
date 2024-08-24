@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#background{
+    width: 100%;
+    height: 600px;
+    background-image:url(../../assets/images/FlyingCrow.gif), url(../../assets/images/leftBigMountain.png),url(../../assets/images/leftSmallMountain.png), url(../../assets/images/rightSmallMountain.png), url(../../assets/images/rightBigMountain.png), url(../../assets/images/glowingSun.png),url(../../assets/images/moon.png),url(../../assets/images/darkSky.jpg);
+    background-size: 10%,50% 80%,40%,50%,55% 70%,30%,10%, 100% 100%;
+    background-position: 60%,left bottom, 45% 195px,55% 90px,right bottom, 50% 240px,top left,center;
+    background-repeat: no-repeat;
+    transition: all 7s;
+}
+#background:hover{
+    /* width: 100%;
+    height: 600px; */
+    background-image:url(../../assets/images/FlyingCrow.gif), url(../../assets/images/leftBigMountain.png),url(../../assets/images/leftSmallMountain.png), url(../../assets/images/rightSmallMountain.png), url(../../assets/images/rightBigMountain.png), url(../../assets/images/glowingSun.png),url(../../assets/images/moon.png),url(../../assets/images/daySky.jpg);
+    background-size: 10%,50% 80%,40%,50%,55% 70%,30%,0px, 100% 100%;
+    background-position: 100%,-50px 130px, 40% 220px,60% 110px,110% 190px, 50% -100px,200px 100%,center;
+    /* background-repeat: no-repeat; */
+}
+#shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 7s;
+}
+#shadow:hover{
+    background-color: rgba(0,0,0,0);
+}
+
+
