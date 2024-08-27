@@ -1,0 +1,29 @@
+button{
+    width: 100px;
+    height: fit-content;
+    font-size: 100px;
+    border-radius: 50%;
+    border: none;
+    margin:10px;
+}
+
+#x_button{
+    margin-left: 600px;
+}
+
+#earth{
+    margin-left: 650px;
+    transition: all 5s;
+}
+
+#x_button:hover~#earth{
+    transform: rotateX(360deg);
+}
+
+#y_button:hover~#earth{
+    transform: rotateY(360deg);
+}
+
+#z_button:hover~#earth{
+    transform: rotateZ(360deg);
+}
