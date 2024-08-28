@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    width: 100%;
+    height: 100px;
+    margin-top: 500px;
+    margin-left: 600px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 2px groove grey;
+    border-radius: 10%;
+    transition: all 5s;
+    transform: skewX(-15deg);
+}
+
+#nature{
+    transform: skewX(-15deg) translateX(-50px);
+}
+
+#space{
+    transform: skewX(-15deg) translateX(-100px);
+}
+
+#landscape:hover{
+    transform: skewX(0deg) translate(100px,-300px) rotateY(360deg) scale(4,4);
+}
+
+#nature:hover{
+    transform: skewX(0deg) translate(0px,-300px) rotateY(360deg) scale(4,4);
+}
+
+
+#space:hover{
+    transform: skewX(0deg) translate(-100px,-300px) rotateY(360deg) scale(4,4);
+}
+
