@@ -13,11 +13,12 @@ img{
     height: 100px;
     border: 2px groove grey;
     border-radius: 10%;
+    /* margin-left: 50px; */
     transition: all 5s;
     transform: skewX(-15deg);
 }
 
-#nature{
+#nature{  
     transform: skewX(-15deg) translateX(-50px);
 }
 
