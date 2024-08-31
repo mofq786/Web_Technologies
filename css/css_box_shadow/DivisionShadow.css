@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#division_shadow{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px lightsalmon;
+}
+
+#button_shadow{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: orange;
+    box-shadow: inset 0px 0px 10px orangered;
+}
+
+#circular_shadow{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-top: 150px;
+    margin-left: 130px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 0px red;
+    transition: all 3s;
+}
+
+#circular_shadow:hover{
+
+    
+
+    box-shadow: 0px -50px 0px red,45px -25px 0px green,35px 35px 0px magenta, -45px -25px 0px gold,-30px 35px 0px blue;
+
+    /* box-shadow: 40.45px -29.39px 0px red, -15.45px -47.55px 0px green,-50px 0px 0px magenta,-15.45px 47.55px 0px blue, 40.45px 29.39px 0px gold; */
+    
+    transform: rotate(360deg);
+
+}
