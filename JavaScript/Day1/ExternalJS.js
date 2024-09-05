@@ -1,0 +1,1 @@
+document.getElementById("heading").innerHTML="This is Heading Info in header h1"
