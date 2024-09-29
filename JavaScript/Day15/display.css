@@ -1,0 +1,34 @@
+div,h1,p,b,span{
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+div{
+    background-color: darkblue;
+    display:inline;
+}
+h1{
+    background-color: blueviolet;
+    display:inline;
+}
+p{
+    background-color: tomato;
+    display:inline;
+}
+b{
+    background-color: steelblue;
+    display:block;
+}
+span{
+    background-color: sienna;
+    display:block;
+}
+
+img{
+    width: 250px;
+    display: none;
+}
+input:hover~img{
+    display: block;
+}
