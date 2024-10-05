@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+    <script src="./event5and6.js" defer></script>
+    <style>
+       *{
+        padding: 0px;
+        margin: 0px;
+       }
+       body{
+        /* background-color: #eee; */
+        background-image: linear-gradient(rgb(222, 222, 222),rgb(235, 235, 235),rgb(222, 222, 222));
+        background-size: 100% 100vh;
+       }
+       span,#container{
+        width: 25vw;
+        height: 6vh;
+        margin-left: 40%;
+       }
+       span{
+        margin-top: 2%;
+        display: block;
+        text-align: center;
+        font-size: 3vh;
+       }
+       #container{
+        margin-top: 20%;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: flex;
+        background-color: white;
+        box-shadow: 1px 1px 5px black;
+       }
+       input{
+        height: 100%;
+        width: 81%;
+        border: none;
+        outline: none;
+        padding: 0% 2% 0% 2%;
+        background: transparent;
+        font-size: 4vh;
+        letter-spacing: 1vh;
+       }
+       img{
+        width: 15%;
+        padding: 2%;
+        border-left: 0.2vh solid black;
+        
+        /* border: 2px solid red; */
+       }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <input type="password" id="pass" oninput="passType()">
+        <img onmousedown="visible()" onmouseup="invisible()" src="../../assets/images/eye-slash-solid.svg" alt="" >
+    </div>
+    <span></span>
+</body>
+</html>

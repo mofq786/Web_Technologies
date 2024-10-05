@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./event11.js" defer></script>
+    <title>OnChange</title>
+    <style>
+        body{
+            width: 95vw;
+            height: 35vh;
+        }
+        #circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: teal;
+            box-shadow: 2px 2px 7px grey;
+        }
+        #buttons{
+            width: 300px;
+            height: 100px;
+            margin-top: 30%;
+            margin-left: 45%;
+
+        }
+        #down,#left,#right{
+            height: 50px;
+            width: 33%;
+        }
+        #buttons2{
+            display: flex;
+        }
+        #up{
+            margin-left: 33%;
+            display: block;
+            width: 33%;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+    <div id="buttons">
+        <div>
+            <button id="up" onclick="up()">UP</button>
+        </div>
+        <div id="buttons2">
+            <button id="left" onclick="left()">LEFT</button>
+            <button id="down" onclick="down()">DOWN</button>
+            <button id="right" onclick="right()">RIGHT</button>
+        </div>
+    </div>
+</body>
+</html>
