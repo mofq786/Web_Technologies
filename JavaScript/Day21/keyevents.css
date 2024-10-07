@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 40vw;
+    height: 99vh;
+    background-image: url(../../assets/images/roads.jpg);
+    background-size: 100% 100%;
+}
+img{
+    width: 80px;
+    margin-top: 50%;
+    transform: rotate(85deg);
+    transition: all 0.5s;
+}

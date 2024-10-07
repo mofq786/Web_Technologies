@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 180px;
+    height: 40px;
+    display: flex;
+}
+
+input{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid red;
+    text-align: center;
+}
