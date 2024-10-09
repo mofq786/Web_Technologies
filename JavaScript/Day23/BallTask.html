@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./BallTask.js" defer></script>
+    <title>Ball Task</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .row{
+            width: 100%;
+            height: 11vw;
+            display: flex;
+        }
+        #container{
+            width: 100vw;
+            height: 90vh;
+            background-color: khaki;
+        }
+        button{
+            margin: 1vh 0vh 0vh 47vw ;
+            width: 10vw;
+            height: 5vh;
+            font-size: 25px;
+            border: none;
+            outline: none;
+            background-color: royalblue;
+            color: white;
+            border-radius: 5px;
+        }
+        .balls{
+            height: 10vw;
+            width: 10vw;
+            border-radius: 50%;
+            background-color: red;
+            margin: 0.5vw;
+            float: left;
+        }
+        #ball1, #ball3,#ball5{
+            /* float: left; */
+            margin-right: 78vw;
+            margin-bottom: 5vh;
+            transition: all 0.5s;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div id="ball1" class="balls"></div>
+            <div id="ball2" class="balls" onclick="move(1)"></div>
+        </div>
+        <div class="row">
+            <div id="ball3" class="balls" ></div>
+            <div id="ball4" class="balls" onclick="move(3)"></div>
+        </div>
+        <div class="row">
+            <div id="ball5" class="balls"></div>
+            <div id="ball6" class="balls" onclick="move(5)"></div>
+        </div>
+    </div>
+    <button onclick="move()">Reset</button>
+
+</body>
+</html>
