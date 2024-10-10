@@ -1,4 +1,8 @@
 // var input = document.querySelector("input");
+// input.removeAttribute("disabled");
+// input.setAttribute("placeholder","Enter your name");
+
+
 var login = document.querySelector("button");
 
 function fun()
