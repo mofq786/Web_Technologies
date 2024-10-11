@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    display: flex;
+    width: 90vw;
+    height: 20vh;
+    margin-left: 8vw;
+    font-size: 18vw;
+}
+
+div,button,input{
+    text-align: center;
+    align-content: center;
+}
+
+button{
+    width: 30%;
+    height: 100%;
+    margin: 1.5%;
+}
+
+#numbers{
+    height: 25vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    font-size: 7vw;
+    
+}
+input{
+    font-size: 15vw;
+    width: 100%;
+    border: none;
+    outline: none;
+}
