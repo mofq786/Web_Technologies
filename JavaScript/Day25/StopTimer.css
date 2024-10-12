@@ -6,7 +6,7 @@ div{
     display: flex;
     width: 90vw;
     height: 20vh;
-    margin-left: 8vw;
+    margin-left: 5vw;
     font-size: 18vw;
 }
 
@@ -19,6 +19,12 @@ button{
     width: 30%;
     height: 100%;
     margin: 1.5%;
+    font-size: 5vw;
+    color: white;
+    border: none;
+    letter-spacing: 0.3vw;
+    border-radius: 20%/55%;
+    box-shadow: 2px 2px 5px rgb(78, 75, 75);
 }
 
 #numbers{
@@ -33,4 +39,18 @@ input{
     width: 100%;
     border: none;
     outline: none;
+    color: rgb(216, 90, 0);
+    text-shadow: 7px 2px 10px rgb(211, 134, 79);
+}
+
+#start{
+    background-color: rgb(52, 172, 52);
+}
+
+#stop{
+    background-color: rgb(248, 64, 64);
+}
+
+#reset{
+    background-color: royalblue;
 }

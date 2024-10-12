@@ -8,13 +8,14 @@
     <script src="./StopTimer.js" defer></script>
 </head>
 <body>
+    <img src="" alt="" style="width: 100%;">
     <div id="numbers">
         <input id="time" type="text" value="00:00:00" readonly>
     </div>
     <div id="buttons">
-        <button onclick="startTimer()">Start</button>
-        <button onclick="stopTimer()">Stop</button>
-        <button onclick="resetTimer()">Reset</button>
+        <button onclick="startTimer()"  id="start">Start</button>
+        <button onclick="stopTimer()" id="stop">Stop</button>
+        <button onclick="resetTimer()" id="reset">Reset</button>
     </div>
 </body>
 </html>
