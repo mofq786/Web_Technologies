@@ -26,6 +26,7 @@ function stopTimer()
     }
 }
 
+
 function startTimer()
 {
     started.setAttribute("disabled",true);
