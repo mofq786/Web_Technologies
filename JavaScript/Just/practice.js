@@ -98,7 +98,7 @@
 // console.log(sentence);
 
 let pr = new Promise((resolve,reject)=>{
-    let num = 10;
+    let num = 11;
     if(num%2 === 0)
     {
         resolve("The Number is Even");
@@ -108,4 +108,5 @@ let pr = new Promise((resolve,reject)=>{
         reject("The Number is Odd");
     }
 })
-console.log(pr)
+pr.then(res => console.log(res));
+pr.catch(err => console.log(err))
