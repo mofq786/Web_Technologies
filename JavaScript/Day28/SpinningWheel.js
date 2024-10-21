@@ -11,6 +11,7 @@ function rotateWheel()
     spinButton.style.opacity = "65%";
     setTimeout(reset, 5000)
     
+    
 }
 function reset(){
     spinButton.removeAttribute("disabled");

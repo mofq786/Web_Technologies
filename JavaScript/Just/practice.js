@@ -97,16 +97,58 @@
 // const sentence = words.reduce((accumulator, word) => accumulator + ' ' + word);
 // console.log(sentence);
 
-let pr = new Promise((resolve,reject)=>{
-    let num = 11;
-    if(num%2 === 0)
-    {
-        resolve("The Number is Even");
+// let api = fetch("https://api.github.com/users");
+// console.log(api);
+// let json = api.then(res => res.json());
+// console.log(json);
+
+// let arr = json.then(data => console.log(data));
+// // console.log(arr);
+
+// // api.catch(err => console.log(err))
+
+// // fetch("https://api.github.com/users").then(res => res.json()).then(data => console.log(data));
+// let apiLine = fetch("https://api.github.com/users");
+// apiLine.then(res => res.json().then(data => console.log(data)));
+// apiLine.catch(err => console.log(err));
+
+
+// let api = fetch("https://fakestoreapi.com/products");
+// // console.log(api);
+// api.then(res => res.json()).then(data => console.log(data));
+
+// api.catch(err => console.log(err))
+
+// async function demo(){
+//     return fetch("https://fakestoreapi.com/products");
+// }
+// console.log(demo());
+
+// let arrow = async () => "Hello"
+
+// arrow().then(data => console.log(data));
+
+let promise = new Promise((resolve,reject) => {
+    setTimeout(()=>{
+        resolve("The Promise is Successfull")
+}, 5000);
+});
+
+demo()
+
+async function demo()
+{
+    try{
+        let data = await promise;
+    // promise.then(data => console.log(data));
+    console.log(data);
+    console.log("Hello");
     }
-    else
+    catch(e)
     {
-        reject("The Number is Odd");
+        console.log(e);
     }
-})
-pr.then(res => console.log(res));
-pr.catch(err => console.log(err))
+    finally{
+        console.log("The Statement will be executed for sure");
+    }
+}
